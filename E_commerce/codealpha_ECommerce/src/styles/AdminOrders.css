@@ -1,0 +1,81 @@
+.all-orders-container {
+    max-width: 1300px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .filters select,
+  .filters input {
+    padding: 0.6rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    border: 1px solid #e0e0e0;
+    padding: 0.75rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  .orders-table th {
+    background-color: #f7f7f7;
+  }
+  
+  .orders-table td ul {
+    padding-left: 1rem;
+    margin: 0;
+    list-style-type: disc;
+  }
+  
+  .confirm-btn,
+  .cancel-btn {
+    margin-right: 0.5rem;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  
+  .confirm-btn {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  .cancel-btn {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #27ae60;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #c0392b;
+  }
+  
